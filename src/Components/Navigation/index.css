@@ -1,0 +1,11 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-container {
+  background-color: salmon;
+  padding: 16px;
+}
