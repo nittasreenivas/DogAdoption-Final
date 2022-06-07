@@ -13,7 +13,9 @@ export default function Adoption() {
         </h3>
         <h3> {doggie.description} </h3>
         <h3> {doggie.Color} </h3>
-        <h4> {doggie["Rescued From"]} </h4>
+        <h3> {doggie["Rescued From"]} </h3>
+        <h3> {doggie["Life Expectancy"]} </h3>
+        <h3> {doggie["Approx Age"]} </h3>
       </div>
     );
   });
