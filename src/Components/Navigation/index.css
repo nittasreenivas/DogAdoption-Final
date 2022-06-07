@@ -9,3 +9,7 @@
   background-color: salmon;
   padding: 16px;
 }
+
+.nav-list a {
+  text-decoration: none;
+}

@@ -7,15 +7,30 @@ export default function Adoption() {
         <img alt={doggie.Breed} src={doggie.image} width={500} />
         <h3>
           <Link to={`/adoption/${doggie.id}`} state={doggie}>
-            {" "}
-            {doggie.Breed}{" "}
+            <em>Breed: </em>
+            {doggie.Breed}
           </Link>
         </h3>
-        <h3> {doggie.description} </h3>
-        <h3> {doggie.Color} </h3>
-        <h3> {doggie["Rescued From"]} </h3>
-        <h3> {doggie["Life Expectancy"]} </h3>
-        <h3> {doggie["Approx Age"]} </h3>
+        <h3>
+          {" "}
+          <em>Dog Description:</em> {doggie.description}{" "}
+        </h3>
+        <h3>
+          {" "}
+          <em> Color: </em> {doggie.Color}{" "}
+        </h3>
+        <h3>
+          {" "}
+          <em>Rescued From:</em> {doggie["Rescued From"]}{" "}
+        </h3>
+        <h3>
+          {" "}
+          <em> Life Expectancy: </em> {doggie["Life Expectancy"]}{" "}
+        </h3>
+        <h3>
+          {" "}
+          <em> Approx Age: </em> {doggie["Approx Age"]}{" "}
+        </h3>
       </div>
     );
   });
